@@ -1,2 +1,8 @@
 providers.tf
 # .gitignore
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+modules/vpc/*

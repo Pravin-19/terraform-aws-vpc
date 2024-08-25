@@ -3,8 +3,6 @@ variable "vpc_configs" {
     cidr_block = string
     enable_dns_hostnames = bool
     enable_dns_support = bool
-
-    tags = map (string)
-    
+    tags = map(string)
   }))
 }
